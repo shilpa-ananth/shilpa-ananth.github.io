@@ -20,11 +20,8 @@ author: Shilpa Ananth
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+    - Shilpa's Medium Profile: "https://medium.com/@shilpa_47526"
 
 ################
 # --- Logo --- #
@@ -32,10 +29,10 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+#avatar: "assets/img/field-with-poppies-van-gogh.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
-round-avatar: true
+#round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
@@ -51,16 +48,11 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "someone@example.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
-  whatsapp: 15551212
-#  medium: yourname
+  github: shilpa-ananth
+  twitter: shilpa_ananth
+  medium: shilpa_47526
 #  reddit: yourname or r/yoursubreddit
-#  linkedin: daattali
+  linkedin: shilpa-ananth
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -86,7 +78,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+#rss-description: This website is a virtual proof that I'm awesome
 
 ###########################
 # --- General options --- #
@@ -94,15 +86,10 @@ rss-description: This website is a virtual proof that I'm awesome
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
-  linkedin: true
-  vk: false
-  reddit: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "shilpa-ananth.github.io"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
@@ -111,7 +98,7 @@ title-on-all-pages: true
 excerpt_length: 50
 
 # Whether or not to show an excerpt for every blog post in the feed page
-feed_show_excerpt: true
+feed_show_excerpt: false
 
 # Whether or not to show a list of tags below each post preview in the feed page
 feed_show_tags: true
@@ -120,7 +107,7 @@ feed_show_tags: true
 post_search: true
 
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
-edit_page_button: true
+edit_page_button: false
 
 # Allow sub-menu items (second-level navigation menu items) to be longer than the top-level menu
 # If this setting is off, then long sub-menu words might get cut off
@@ -136,17 +123,17 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-page-col: "#FFFFFF"
-text-col: "#404040"
+page-col: "#fefff5"
+text-col: "#2c512a"
 link-col: "#008AFF"
-hover-col: "#0085A1"
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+hover-col: "#8c964f"
+navbar-col: "#EAEDD7"
+navbar-text-col: "#2c512a"
+#navbar-border-col: "#8c964f"
+footer-col: "#EAEDD7"
+footer-text-col: "#2c512a"
+footer-link-col: "#8c964f"
+footer-hover-col: "#8c964f"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
@@ -203,7 +190,7 @@ footer-hover-col: "#0085A1"
 #fb_comment_id: ""
 
 # To use CommentBox, sign up for a Project ID on https://commentbox.io
-#commentbox: "" # Project ID, e.g. "5694267682979840-proj"
+commentbox: "5660021509586944-proj"
 
 # To use Utterances comments: (0) uncomment the following section, (1) fill in
 # "repository" (make sure the repository is public), (2) Enable Issues in your repository,
